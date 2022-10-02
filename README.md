@@ -1,3 +1,4 @@
-# lco-graphql
-A standard babel setup
-Starter project setup for upcoming crash courses
+# express graphql
+A simple graphql api server in express.js
+
+`express.js` `graphql`
