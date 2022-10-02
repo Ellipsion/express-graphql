@@ -1,8 +1,9 @@
 {
-  "name": "lco-graphql",
+  "name": "my-graphql-demo",
   "version": "1.0.0",
-  "description": "a standard babel setup",
+  "description": "gql server with express.js and es6",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon ./index.js --exec babel-node -e js"
   },
@@ -18,6 +19,11 @@
     "babel-preset-stage-0": "^6.24.1"
   },
   "dependencies": {
+    "@babel/node": "^7.19.1",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.0.0",
+    "nanoid": "^4.0.0",
     "nodemon": "^2.0.6"
   }
 }
